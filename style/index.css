@@ -42,3 +42,14 @@ h6 {
 #__next {
   isolation: isolate;
 }
+/* custom properties */
+:root {
+  /* Primary */
+  --orange: hsl(31, 77%, 52%);
+  --cyan: hsl(184, 100%, 22%);
+  --dark-cyan: hsl(179, 100%, 13%);
+
+  /* Neutral */
+  --white-paragraphs: hsla(0, 0%, 100%, 0.75);
+  --gray-bg-headings-btns: hsl(0, 0%, 95%);
+}
