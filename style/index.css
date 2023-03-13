@@ -137,3 +137,28 @@ button {
     margin-top: 5rem;
   }
 }
+/* hover */
+.item-sedans button:hover {
+  cursor: pointer;
+  color: var(--gray-bg-headings-btns);
+  background-color: var(--orange);
+  border: 2px solid var(--gray-bg-headings-btns);
+}
+.item-sedans button:hover {
+  cursor: pointer;
+  color: var(--gray-bg-headings-btns);
+  background-color: var(--orange);
+  border: 2px solid var(--gray-bg-headings-btns);
+}
+.item-suvs button:hover {
+  cursor: pointer;
+  color: var(--gray-bg-headings-btns);
+  background-color: var(--cyan);
+  border: 2px solid var(--gray-bg-headings-btns);
+}
+.item-luxury button:hover {
+  cursor: pointer;
+  color: var(--gray-bg-headings-btns);
+  background-color: var(--dark-cyan);
+  border: 2px solid var(--gray-bg-headings-btns);
+}
