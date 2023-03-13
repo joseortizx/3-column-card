@@ -14,6 +14,7 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  color: var(--gray-bg-headings-btns);
 }
 img,
 picture,
@@ -52,4 +53,71 @@ h6 {
   /* Neutral */
   --white-paragraphs: hsla(0, 0%, 100%, 0.75);
   --gray-bg-headings-btns: hsl(0, 0%, 95%);
+}
+/* centering */
+.section {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 2rem;
+}
+/* card styling */
+.section__card {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+/* item card styling */
+.section__card--item {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 2rem;
+  font-family: "Lexend Deca";
+}
+.section__card--item picture,
+h2,
+p,
+button {
+  margin: 1rem 0;
+}
+.section__card--item h2 {
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  color: var(--gray-bg-headings-btns);
+}
+.section__card--item p {
+  color: var(--white-paragraphs);
+}
+.section__card--item button {
+  background-color: var(--gray-bg-headings-btns);
+  border: 0;
+  border-radius: 30px;
+  width: 60%;
+  height: 3rem;
+}
+/* special styling */
+.item-sedans {
+  background-color: var(--orange);
+}
+.item-sedans button {
+  color: var(--orange);
+}
+.item-suvs {
+  background-color: var(--cyan);
+}
+.item-suvs button {
+  color: var(--cyan);
+}
+.item-luxury {
+  background-color: var(--dark-cyan);
+}
+.item-luxury button {
+  color: var(--dark-cyan);
 }
