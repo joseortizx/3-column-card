@@ -121,3 +121,19 @@ button {
 .item-luxury button {
   color: var(--dark-cyan);
 }
+/* media query */
+@media (min-width: 1000px) {
+  .section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .section__card {
+    flex-direction: row;
+    width: 55rem;
+  }
+  .section__card--item button {
+    margin-top: 5rem;
+  }
+}
